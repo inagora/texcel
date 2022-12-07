@@ -1,0 +1,24 @@
+{
+  "name": "texcel",
+  "version": "0.1.0",
+  "description": "a bunch of toolkits for exceljs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inagora/texcel.git"
+  },
+  "keywords": [
+    "texcel",
+    "exceljs",
+    "xlsx"
+  ],
+  "author": "poker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inagora/texcel/issues"
+  },
+  "homepage": "https://github.com/inagora/texcel#readme"
+}
