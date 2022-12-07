@@ -1,5 +1,5 @@
 {
-  "name": "texcel",
+  "name": "@inagora/texcel",
   "version": "0.1.0",
   "description": "a bunch of toolkits for exceljs",
   "main": "index.js",
