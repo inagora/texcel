@@ -2,9 +2,10 @@
   "name": "@inagora/texcel",
   "version": "0.1.0",
   "description": "a bunch of toolkits for exceljs",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/inagora/texcel/issues"
   },
-  "homepage": "https://github.com/inagora/texcel#readme"
+  "homepage": "https://github.com/inagora/texcel#readme",
+  "devDependencies": {
+    "exceljs": "^4.3.0",
+    "file-saver": "^2.0.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
 }

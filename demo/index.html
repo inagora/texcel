@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ExcelJS Demo</title>
+	<script src="https://oss.wandougongzhu.cn/lib/exceljs/4.3.0/dist/exceljs.min.js"></script>
+	<script src="../dist/texcel.js"></script>
+
+</head>
+<body>
+<input type="file" onchange="handleFile(event)" />
+<script>
+	async function handleFile(e){
+		const file = e.target.files[0];
+		console.log(await ExcelJS.readFile(file));
+	}
+
+	// async function handleFile(e){
+	// 	const file = e.target.files[0];
+	// 	var reader = new FileReader();
+	// 	reader.onload = function(e) {
+	// 		/* e.target.result is an ArrayBuffer */
+	// 		console.log(XLSX.read(e.target.result));
+	// 	};
+	// 	reader.readAsArrayBuffer(file);
+	// }
+</script>
+</body>
+</html>
